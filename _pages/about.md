@@ -6,7 +6,7 @@ subtitle: <span class="font-weight-bold">PhD Scholar</span> • <a href="https:/
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profile_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>AI4Bharat Lab</p>
