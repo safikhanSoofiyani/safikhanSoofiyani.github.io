@@ -25,6 +25,19 @@
           <abbr class="badge rounded w-100">{{ entry.abbr }}</abbr>
         {% endif %}
       {% endif %}
+      {% if entry.award %}
+        {% comment %} <img src="/assets/bibliography/award_paper.png" alt="Award Trophy" class="trophy-icon" /> {% endcomment %}
+        {% assign entry_path = entry.preview | prepend: '/assets/bibliography/award_paper.png' %}
+        {%
+          include figure.liquid
+          loading="eager"
+          path=entry_path
+          sizes = "20px"
+          class="preview z-depth-1 rounded trophy-icon-custom"
+          zoomable=false
+          alt=entry.award
+        %}
+      {% endif %}
       {% if entry.preview %}
         {% if entry.preview contains '://' %}
           <img class="preview z-depth-1 rounded" src="{{ entry.preview }}">
@@ -229,6 +242,9 @@
       {% endif %}
       {% if entry.code %}
         <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button">Code</a>
+      {% endif %}
+      {% if entry.data %}
+          <a href="{{ entry.data }}" class="btn btn-sm z-depth-0" role="button">Data</a>
       {% endif %}
       {% if entry.poster %}
         {% if entry.poster contains '://' %}

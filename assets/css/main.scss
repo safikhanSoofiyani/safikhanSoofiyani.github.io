@@ -23,3 +23,10 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-filled.scss",
   "tabler-icons/tabler-icons-outline.scss"
 ;
+
+.trophy-icon-custom {
+  width: 30px;
+  height: auto;
+  margin-left: 45px;
+  vertical-align: middle;
+}
