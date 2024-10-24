@@ -6,7 +6,7 @@ subtitle: PhD Scholar • <a href="https://dsai.iitm.ac.in/" target="_blank">DSA
 
 profile:
   align: right
-  image: profile_pic.jpg
+  image: NewProfilepic.jpeg
   image_circular: true # crops the image to make it circular
   more_info: >
     <p>AI4Bharat Lab</p>
