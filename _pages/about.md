@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Scholar • <a href="https://ai4bharat.iitm.ac.in/" target="_blank">AI4Bharat</a> • <a href="https://dsai.iitm.ac.in/" target="_blank">WSAI</a> • <a href="https://www.iitm.ac.in/" target="_blank">IIT Madras</a>, Research Fellow @ <a href="https://www.sarvam.ai/" target="_blank">Sarvam</a>
+subtitle: Google PhD Fellow • <a href="https://ai4bharat.iitm.ac.in/" target="_blank">AI4Bharat</a> • <a href="https://dsai.iitm.ac.in/" target="_blank">WSAI, IIT Madras</a>, Research Fellow @ <a href="https://www.sarvam.ai/" target="_blank">Sarvam</a>
 
 profile:
   align: right
